@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/gymlogo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multigym Premium</title>
+    <meta name="description" content="Multi Gym Premium, a state-of-the-art fitness facility located in Mohammadpur, Dhaka, Bangladesh, offers an extensive range of amenities and services designed to provide an exceptional fitness experience. The gym features the latest cardio and strength training equipment, a variety of fitness classes, and luxurious amenities including a sauna and steam room. Additionally, Multi Gym Premium provides personal training services, staffed by experienced and qualified trainers dedicated to helping members achieve their fitness goals. The gym also offers specialized programs tailored to different fitness levels and goals, ensuring that each member receives a personalized and effective workout experience." />
+    <meta name="keywords" content="Multi Gym Premium, fitness, gym, cardio equipment, strength training, fitness classes, sauna, steam room, personal training, fitness programs" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init({
+          publicKey: import.meta.env.VITE_apiKey,
+        });
+      })();
+    </script>
+  </body>
+</html>
